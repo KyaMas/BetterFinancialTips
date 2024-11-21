@@ -1,0 +1,7 @@
+Category,total_spending,average_spending,purchase_count,Cluster,Cluster_Label,PCA1,PCA2,Spending_Level,Frequency_Level,Budgeting_Tip
+Clothing,3400.68,36.17744680851064,94,2,"Frequent, Low-Value Purchases",-0.6292757320525679,-0.7858285563858326,Moderate Spending,High Frequency,Look for bulk discounts or subscriptions to save money.
+Electronics,37281.31,295.88341269841266,126,1,"Moderate, Balanced Spending",3.2456620216246996,0.211555827306964,High Spending,High Frequency,Consider reducing purchases in this category or finding alternatives.
+Entertainment,8419.859999999999,165.09529411764703,51,0,"High-Value, Infrequent Purchases",-0.282382414979738,1.1759422425624555,High Spending,High Frequency,Consider reducing purchases in this category or finding alternatives.
+Household,8827.44,81.73555555555556,108,2,"Frequent, Low-Value Purchases",0.1619832955504496,-0.8508708644858362,High Spending,High Frequency,Consider reducing purchases in this category or finding alternatives.
+Necessities,2661.67,32.86012345679013,81,2,"Frequent, Low-Value Purchases",-0.9018519791665455,-0.45355517590845423,Moderate Spending,High Frequency,Look for bulk discounts or subscriptions to save money.
+Sports,1567.52,39.188,40,0,"High-Value, Infrequent Purchases",-1.5941351909762975,0.7027565269107033,Moderate Spending,Moderate Frequency,Monitor spending to ensure it aligns with your budget.

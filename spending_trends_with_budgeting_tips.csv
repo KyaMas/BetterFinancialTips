@@ -1,7 +1,0 @@
-Category,total_spending,average_spending,purchase_count,Cluster,Cluster_Label,PCA1,PCA2,Spending_Level,Frequency_Level,Budgeting_Tip
-Clothing,18695.16,534.1474285714286,35,2,"Frequent, Low-Value Purchases",0.998807889047197,-0.9740240874954131,High Spending,Moderate Frequency,Consider reducing purchases in this category or finding alternatives.
-Electronics,49952.61,555.029,90,2,"Frequent, Low-Value Purchases",-0.6239445887717409,-0.7426347616566845,High Spending,High Frequency,Consider reducing purchases in this category or finding alternatives.
-Entertainment,23675.09,526.1131111111112,45,2,"Frequent, Low-Value Purchases",0.8322161031028614,-0.6974429514056345,High Spending,Moderate Frequency,Consider reducing purchases in this category or finding alternatives.
-Household,82229.52,537.447843137255,153,1,"Moderate, Balanced Spending",-2.0070833485740156,0.33487906518075183,High Spending,High Frequency,Consider reducing purchases in this category or finding alternatives.
-Necessities,74906.82,509.5702040816327,147,1,"Moderate, Balanced Spending",-1.495580837022204,0.7942092011184092,High Spending,High Frequency,Consider reducing purchases in this category or finding alternatives.
-Sports,12566.539999999999,418.88466666666665,30,0,"High-Value, Infrequent Purchases",2.295584782217901,1.2850135342585713,High Spending,Moderate Frequency,Consider reducing purchases in this category or finding alternatives.
