@@ -1,7 +1,7 @@
 import pandas as pd
-from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.manifold import MDS
+from sklearn.metrics import pairwise_distances
 import matplotlib.pyplot as plt
 
 # Load the dataset
@@ -9,15 +9,10 @@ file_path = "data/updated_purchase_data.csv"
 data = pd.read_csv(file_path)
 
 # Data Preparation
-# Extract features from Purchase Date
 data["Purchase Date"] = pd.to_datetime(data["Purchase Date"])
 data["Year"] = data["Purchase Date"].dt.year
 data["Month"] = data["Purchase Date"].dt.month
 data["Day"] = data["Purchase Date"].dt.day
-
-# Encode the Category column and transform
-label_encoder = LabelEncoder()
-data["Category_Encoded"] = label_encoder.fit_transform(data["Category"])
 
 # Aggregate spending data
 category_features = data.groupby("Category").agg(
@@ -30,108 +25,49 @@ category_features = data.groupby("Category").agg(
 scaler = StandardScaler()
 normalized_features = scaler.fit_transform(category_features[["total_spending", "average_spending", "purchase_count"]])
 
-# Clustering
-# Use KMeans clustering
-kmeans = KMeans(n_clusters=3, random_state=42)
-category_features["Cluster"] = kmeans.fit_predict(normalized_features)
+# Compute Distance Matrix
+distance_matrix = pairwise_distances(normalized_features, metric="euclidean")
 
-# Interpret Clusters
-# Define cluster labels based on observed patterns
-cluster_descriptions = {
-    0: "High-Value, Infrequent Purchases",
-    1: "Moderate, Balanced Spending",
-    2: "Frequent, Low-Value Purchases"
-}
-category_features["Cluster_Label"] = category_features["Cluster"].map(cluster_descriptions)
+# Apply MDS
+mds = MDS(n_components=2, random_state=42, dissimilarity="precomputed")
+mds_features = mds.fit_transform(distance_matrix)
 
-# Reduce dimension to fit PCA
-# Use PCA to visualize clusters
-pca = PCA(n_components=2)
-pca_features = pca.fit_transform(normalized_features)
+# Add MDS Results to DataFrame
+category_features["MDS1"] = mds_features[:, 0]
+category_features["MDS2"] = mds_features[:, 1]
 
-# Add PCA results to the dataset
-category_features["PCA1"] = pca_features[:, 0]
-category_features["PCA2"] = pca_features[:, 1]
-
-# Visualize clusters
-# Plot clusters with descriptive labels
+# Visualize MDS Results
 plt.figure(figsize=(10, 6))
-for cluster, label in cluster_descriptions.items():
-    cluster_data = category_features[category_features["Cluster"] == cluster]
-    plt.scatter(cluster_data["PCA1"], cluster_data["PCA2"], label=f"{label} (Cluster {cluster})")
-
-plt.xlabel("PCA1")
-plt.ylabel("PCA2")
-plt.title("Clusters of Spending Habits with Descriptions")
-plt.legend()
+plt.scatter(category_features["MDS1"], category_features["MDS2"], c="skyblue", edgecolor="k", s=100)
+for i, row in category_features.iterrows():
+    plt.text(row["MDS1"] + 0.02, row["MDS2"], row["Category"], fontsize=9)
+plt.xlabel("MDS1")
+plt.ylabel("MDS2")
+plt.title("MDS Visualization of Spending Patterns")
 plt.show()
 
-# Display descriptive statistics for each cluster
-cluster_summary = category_features.groupby("Cluster_Label").agg(
-    total_spending=("total_spending", "mean"),
-    average_spending=("average_spending", "mean"),
-    purchase_count=("purchase_count", "mean")
-).reset_index()
-
-# Display spending trends
-print("Cluster Spending Summary with Descriptions:")
-print(cluster_summary)
-
-# Save the cluster summary to a CSV file
-cluster_summary.to_csv("data/cluster_spending_summary.csv", index=False)
-print("Cluster summary has been saved to 'cluster_spending_summary.csv'.")
-
-# Analyze Spending Trends by Category
-spending_trends = category_features.copy()
-
-# Add insights based on thresholds (might use GPT api here to generate insights)
-spending_trends["Spending_Level"] = pd.cut(
-    spending_trends["total_spending"],
-    bins=[0, 1000, 5000, float("inf")],  # Define spending ranges
-    labels=["Low Spending", "Moderate Spending", "High Spending"]
-)
-
-spending_trends["Frequency_Level"] = pd.cut(
-    spending_trends["purchase_count"],
-    bins=[0, 10, 50, float("inf")],  # Define frequency ranges
-    labels=["Low Frequency", "Moderate Frequency", "High Frequency"]
-)
-
-# Add a column for budgeting tips
+# Add Spending Insights
 def generate_budgeting_tip(row):
-    if row["Spending_Level"] == "High Spending":
-        return "Consider reducing purchases in this category or finding alternatives."
-    elif row["Spending_Level"] == "Moderate Spending" and row["Frequency_Level"] == "High Frequency":
-        return "Look for bulk discounts or subscriptions to save money."
-    elif row["Spending_Level"] == "Low Spending" and row["Frequency_Level"] == "Low Frequency":
-        return "This category is well-managed; no action needed."
+    # Thresholds
+    high_spending_threshold = 15500  # 25% of total spending
+    frequent_purchase_threshold = 75
+
+    if row["total_spending"] > high_spending_threshold:
+        return "High spending; consider reducing in this category."
+    elif row["purchase_count"] > frequent_purchase_threshold:
+        return "Frequent purchases; look for bulk discounts."
+    elif row["total_spending"] < 3100:  # 5% of total spending
+        return "Spending seems reasonable in this category."
     else:
-        return "Monitor spending to ensure it aligns with your budget."
+        return "Monitor spending; ensure it aligns with your budget."
 
-spending_trends["Budgeting_Tip"] = spending_trends.apply(generate_budgeting_tip, axis=1)
 
-# Display the spending trends in the console
-print("Spending Trends with Budgeting Tips:")
-print(spending_trends)
+category_features["Budgeting_Tip"] = category_features.apply(generate_budgeting_tip, axis=1)
 
-# Save the data to a CSV file
-spending_trends.to_csv("data/spending_trends_with_budgeting_tips.csv", index=False)
-print("The spending trends with budgeting tips have been saved to 'spending_trends_with_budgeting_tips.csv'.")
+# Display the updated dataset with budgeting tips
+print("Spending Patterns with Budgeting Tips:")
+print(category_features)
 
-# Visualize trends
-# Bar chart for total spending by category
-plt.figure(figsize=(12, 6))
-plt.bar(spending_trends["Category"], spending_trends["total_spending"], color="skyblue")
-plt.xlabel("Category")
-plt.ylabel("Total Spending ($)")
-plt.title("Total Spending by Category")
-plt.xticks(rotation=45, ha="right")
-plt.tight_layout()
-plt.show()
-
-# Pie chart for spending levels
-spending_levels = spending_trends["Spending_Level"].value_counts()
-plt.figure(figsize=(8, 8))
-plt.pie(spending_levels, labels=spending_levels.index, autopct="%1.1f%%", startangle=140, colors=["lightcoral", "gold", "lightgreen"])
-plt.title("Distribution of Spending Levels Across Categories")
-plt.show()
+# Save the results to a CSV file
+category_features.to_csv("data/mds_spending_patterns_with_tips.csv", index=False)
+print("The MDS spending patterns with budgeting tips have been saved to 'data/mds_spending_patterns_with_tips.csv'.")
