@@ -1,0 +1,501 @@
+Purchase Date,Product Name,Price
+2019-07-06,Groceries,100.12
+2015-04-28,Noise-Cancelling Headphones,149.97
+2019-04-19,4K Blu-ray Player,149.56
+2022-11-22,Kitchen Blender,59.62
+2015-07-22,Noise-Cancelling Earbuds,180.05
+2019-02-04,4K Blu-ray Player,150.49
+2022-10-22,Digital Piano,600.4
+2023-02-14,Home Security Camera,100.31
+2017-05-08,Drone with Camera,400.21
+2015-06-27,Tablet,299.91
+2022-12-19,Office Supplies,19.54
+2016-04-16,E-Reader,119.72
+2016-05-14,Notebook,2.14
+2017-06-12,Dish Soap,3.07
+2018-03-04,Cookware Set,100.06
+2016-06-01,Smart Light Bulbs (Pack of 4),49.94
+2021-08-16,4K Blu-ray Player,150.08
+2022-07-22,LED TV,500.37
+2017-07-27,Camping Tent,150.34
+2015-03-01,Portable Hard Drive,79.63
+2015-01-13,Drone with Camera,399.68
+2021-10-11,Kitchen Blender,59.5
+2022-04-05,Electric Shaver,99.98
+2019-08-05,Art Supplies,20.2
+2015-01-22,Table Lamp,29.84
+2017-07-15,Groceries,99.71
+2020-12-26,Microwave Oven,150.03
+2015-11-20,Groceries,99.84
+2017-04-18,Noise-Cancelling Earbuds,180.09
+2022-07-18,Notebook,2.06
+2023-08-26,Fitness Equipment,500.03
+2015-12-18,Smartphone,800.11
+2018-07-22,Smartphone,800.18
+2017-08-16,Printer,99.75
+2016-05-11,Portable Hard Drive,80.1
+2018-09-15,Microwave Oven,150.18
+2023-07-27,Cookware Set,99.77
+2020-10-08,Drone with Camera,400.25
+2020-09-08,Sketchpad,5.22
+2019-02-28,Bicycle Helmet,50.48
+2021-01-09,Soccer Ball,25.34
+2016-05-21,Robot Vacuum,350.07
+2018-05-11,Digital Piano,599.9
+2023-09-23,Hair Dryer,39.73
+2017-03-28,Groceries,100.13
+2020-06-20,4K Blu-ray Player,149.78
+2023-12-21,Laptop Stand,29.93
+2019-07-09,Laptop Stand,29.94
+2015-02-18,Robot Vacuum,349.55
+2022-05-17,Gaming Console,500.08
+2022-07-26,Wireless Headphones,79.53
+2020-07-05,Smartwatch,249.82
+2016-04-20,Office Supplies,19.95
+2022-01-11,Laptop Stand,29.54
+2022-07-27,Soccer Ball,25.09
+2022-09-27,Sketchpad,5.34
+2016-12-09,Home Security Camera,99.96
+2017-11-09,E-Reader,119.91
+2023-03-14,E-Reader,120.29
+2021-07-25,Gaming Chair,200.2
+2023-09-22,Microwave Oven,149.9
+2023-03-01,Kitchen Blender,60.05
+2017-02-26,Pencil Set,5.1
+2016-05-02,Dish Soap,3.3
+2023-07-16,Fitness Equipment,499.86
+2017-07-23,Groceries,99.6
+2017-02-24,Dish Soap,2.51
+2020-01-08,4K Blu-ray Player,149.64
+2022-09-19,Office Supplies,20.34
+2020-03-05,Air Purifier,149.94
+2015-10-15,Bicycle Helmet,50.2
+2016-02-21,Frying Pan,24.94
+2023-09-16,Smart Light Bulbs (Pack of 4),49.76
+2023-10-20,Winter Jacket,120
+2017-09-23,Portable Hard Drive,79.57
+2015-07-20,Winter Jacket,119.93
+2021-04-09,Notebook,2.02
+2018-11-08,Table Lamp,29.89
+2020-09-05,Tablet,300.16
+2021-04-15,Wireless Mouse,24.53
+2019-04-11,Wireless Headphones,80.22
+2020-01-07,Electric Shaver,100.36
+2015-11-09,Printer,99.73
+2016-06-16,Bluetooth Speaker,49.58
+2020-09-23,Electric Scooter,399.77
+2018-12-23,Tablet,299.71
+2015-07-26,Music Instrument,499.99
+2018-04-09,Wireless Headphones,79.8
+2018-04-06,Electric Kettle,30.37
+2022-03-02,Vacuum Cleaner,150.13
+2023-12-18,Noise-Cancelling Headphones,150.1
+2021-08-22,Noise-Cancelling Headphones,150.37
+2017-07-27,Smartphone,799.66
+2016-01-04,Electric Scooter,400.03
+2020-07-28,Fitness Equipment,499.91
+2023-04-05,Desk Chair,99.6
+2017-12-17,Home Theater System,799.91
+2018-07-26,Art Supplies,20.11
+2021-01-25,Hiking Boots,99.74
+2019-06-09,Electric Kettle,30.21
+2016-09-06,Espresso Machine,200.47
+2020-06-01,Music Instrument,499.79
+2020-08-12,Smart Thermostat,200.41
+2021-04-13,Noise-Cancelling Headphones,149.98
+2015-10-10,Digital Piano,600
+2017-11-10,Sketchpad,4.62
+2020-08-07,Electric Toothbrush,49.67
+2016-12-05,Groceries,100.13
+2015-07-28,Dish Soap,2.83
+2023-04-15,Smartphone,800
+2019-12-09,Laptop Stand,30.5
+2021-09-21,Movie Tickets,12.39
+2016-04-07,Smart Thermostat,200
+2022-09-28,Smartwatch,249.55
+2017-07-23,Bluetooth Speaker,49.65
+2023-01-10,Portable Projector,200.4
+2019-08-20,Electric Kettle,30.3
+2016-06-15,Music Instrument,500.06
+2015-05-08,Smart Light Bulbs (Pack of 4),49.95
+2015-03-16,Bicycle Helmet,49.69
+2019-05-25,DSLR Camera,699.85
+2016-08-05,Electric Scooter,400.5
+2016-09-18,Wireless Headphones,79.88
+2021-05-06,Drone with Camera,399.95
+2018-03-10,Laptop Stand,29.89
+2021-05-26,Digital Piano,600.24
+2020-12-28,Office Supplies,19.8
+2016-01-28,Smart Thermostat,200.21
+2017-09-04,Smart Light Bulbs (Pack of 4),50.03
+2019-11-23,Cookware Set,100.32
+2023-11-08,Stand Mixer,299.58
+2022-01-27,E-Reader,119.84
+2015-05-05,Frying Pan,24.6
+2023-03-07,Noise-Cancelling Earbuds,179.82
+2016-10-27,Electric Guitar,500.12
+2016-07-11,Fitness Tracker,99.83
+2019-09-15,4K Blu-ray Player,150.01
+2018-08-14,Music Instrument,500.2
+2018-04-09,Bicycle Helmet,50.15
+2017-05-05,Bookshelf,79.75
+2016-05-23,Pencil Set,5.26
+2016-01-20,Table Lamp,29.64
+2018-11-19,Gaming Chair,199.78
+2022-05-25,Electric Shaver,99.72
+2018-01-20,Electric Scooter,400.12
+2015-01-18,Digital Piano,600.43
+2022-09-11,Soccer Ball,24.95
+2015-11-14,Laptop Stand,30.23
+2015-06-10,Noise-Cancelling Headphones,149.63
+2017-05-03,Hiking Boots,99.73
+2018-02-19,Stand Mixer,299.81
+2016-07-01,Pencil Set,4.8
+2021-05-26,Espresso Machine,199.54
+2017-08-03,Printer,99.51
+2018-12-04,E-Reader,119.97
+2020-04-05,Office Supplies,20.22
+2015-05-04,LED TV,499.61
+2016-04-24,Stand Mixer,300.3
+2019-10-10,Printer,100.04
+2019-07-20,Laptop Stand,29.89
+2015-01-08,Yoga Mat,19.99
+2017-02-27,Tablet,300.47
+2018-10-24,Hiking Boots,99.71
+2022-02-24,Gaming Chair,199.71
+2018-07-07,Movie Tickets,12.28
+2022-04-24,Art Supplies,20.08
+2019-07-27,Drone with Camera,399.63
+2015-02-13,Acoustic Guitar,300.26
+2021-06-13,Hiking Boots,100.41
+2021-09-06,Electric Shaver,99.99
+2015-10-21,LED TV,499.68
+2021-11-17,Espresso Machine,200.2
+2020-07-05,Bookshelf,79.57
+2022-07-12,Gaming Console,500.2
+2019-09-05,Bluetooth Speaker,50.12
+2023-03-19,Air Purifier,150.1
+2018-02-04,Table Lamp,29.89
+2020-04-06,Smart Thermostat,199.84
+2021-04-03,Printer,100.12
+2015-09-19,4K Blu-ray Player,150.26
+2018-10-07,Table Lamp,29.63
+2023-11-24,Portable Hard Drive,79.88
+2015-05-14,Stand Mixer,300.15
+2018-11-10,Office Supplies,19.71
+2015-11-26,Portable Projector,199.86
+2023-09-17,Sketchpad,5.01
+2019-06-21,Kitchen Blender,59.68
+2020-11-02,E-Reader,120.04
+2015-08-19,Electric Shaver,99.88
+2021-05-20,Home Security Camera,100.2
+2018-12-13,Pencil Set,5.43
+2019-06-04,Bicycle Helmet,50.06
+2020-06-10,DSLR Camera,699.82
+2015-02-27,Vacuum Cleaner,150.46
+2016-11-08,Electric Scooter,400.04
+2016-10-13,Drone with Camera,400.2
+2017-11-09,Robot Vacuum,350.34
+2020-02-18,Smartwatch,250.24
+2023-11-12,Bicycle Helmet,49.71
+2022-10-21,Hiking Boots,100.45
+2023-01-24,Tablet,299.6
+2015-10-10,Drone with Camera,399.64
+2022-12-17,Groceries,100.3
+2022-01-24,Espresso Machine,200.37
+2021-05-24,Vacuum Cleaner,150.41
+2018-05-24,Frying Pan,25.05
+2018-11-10,Sketchpad,5.35
+2021-06-17,Vacuum Cleaner,149.57
+2019-03-23,Tablet,299.76
+2017-03-06,Noise-Cancelling Earbuds,179.52
+2015-01-08,Art Supplies,19.58
+2022-05-26,Gaming Console,500.3
+2020-01-09,Robot Vacuum,350.49
+2023-03-16,Movie Tickets,12.09
+2015-05-22,Acoustic Guitar,299.66
+2017-06-09,Bookshelf,79.94
+2020-06-03,Smart Light Bulbs (Pack of 4),49.94
+2015-11-10,Noise-Cancelling Earbuds,180.45
+2019-01-01,Table Lamp,29.61
+2019-08-28,Electric Scooter,400.36
+2020-01-20,Smart Thermostat,200.31
+2019-10-21,Camping Tent,150.48
+2016-10-28,Pencil Set,4.59
+2017-01-06,Bookshelf,80.19
+2017-05-08,Desk Chair,99.53
+2017-04-02,Electric Kettle,29.89
+2022-03-15,Electric Kettle,29.63
+2019-10-17,Office Supplies,19.55
+2019-02-18,Fitness Tracker,99.82
+2023-06-28,DSLR Camera,700.05
+2017-07-18,Fitness Tracker,100.22
+2015-08-14,Microwave Oven,150.4
+2020-04-02,Movie Tickets,12.35
+2016-11-09,Office Supplies,19.9
+2019-03-15,Electric Scooter,399.65
+2017-06-27,Camping Tent,149.94
+2022-09-24,Hair Dryer,39.99
+2017-05-02,Drone with Camera,400.28
+2019-12-22,Wireless Headphones,79.52
+2016-11-17,Robot Vacuum,350.46
+2015-04-07,Home Security Camera,99.89
+2020-04-27,Drone with Camera,400.18
+2020-07-13,Kitchen Blender,59.55
+2017-08-03,Espresso Machine,200.31
+2022-04-03,Notebook,2.12
+2023-10-11,Electric Guitar,499.85
+2018-11-20,Electric Scooter,400.33
+2020-01-15,Stand Mixer,300.39
+2023-12-07,Smart Thermostat,200.03
+2015-02-07,Art Supplies,19.76
+2018-08-25,Gaming Chair,200.04
+2017-07-17,Kitchen Blender,60.04
+2017-05-25,Soccer Ball,25.31
+2018-03-24,Sketchpad,4.88
+2018-04-12,Tablet,300.18
+2022-04-03,Fitness Tracker,100.05
+2020-06-16,Portable Projector,200.31
+2015-09-04,Cookware Set,100.08
+2016-12-25,Yoga Mat,19.9
+2017-03-14,Smartphone,799.89
+2022-12-09,Wireless Mouse,24.88
+2022-06-18,Portable Projector,199.91
+2020-05-06,Gaming Chair,199.67
+2015-06-23,Hair Dryer,39.69
+2019-06-20,Stand Mixer,300.19
+2018-09-19,Stand Mixer,300.25
+2022-02-11,Electric Scooter,400.44
+2020-01-13,Electric Kettle,30.32
+2017-01-27,Sketchpad,4.74
+2017-07-03,Kitchen Blender,59.74
+2018-03-17,Desk Chair,99.64
+2018-05-17,Laptop Stand,29.65
+2018-09-04,Stand Mixer,300.2
+2018-01-08,Groceries,99.77
+2016-11-12,Noise-Cancelling Earbuds,180.33
+2016-07-20,Wireless Mouse,24.68
+2016-06-18,Electric Toothbrush,50.16
+2020-10-16,Noise-Cancelling Earbuds,179.61
+2018-06-08,DSLR Camera,699.86
+2017-03-20,Gaming Console,499.81
+2017-07-27,Drone with Camera,400.36
+2016-12-09,Movie Tickets,11.85
+2020-02-08,Smart Thermostat,200.46
+2021-02-08,Table Lamp,30.49
+2023-04-16,Groceries,100.02
+2022-05-06,Camping Tent,150.44
+2016-04-11,Electric Guitar,499.54
+2017-11-25,Noise-Cancelling Headphones,150.05
+2023-01-15,Portable Hard Drive,79.84
+2017-11-23,Robot Vacuum,349.89
+2017-11-05,Noise-Cancelling Headphones,150.16
+2022-10-09,Sketchpad,4.51
+2020-01-25,Smart Light Bulbs (Pack of 4),49.7
+2018-09-06,Electric Guitar,499.9
+2021-03-07,Pencil Set,5.5
+2019-11-11,Camping Tent,150.19
+2023-07-01,Microwave Oven,149.6
+2019-08-25,DSLR Camera,699.84
+2015-10-17,Wireless Headphones,80.03
+2020-09-15,Yoga Mat,20.13
+2019-03-12,Office Supplies,19.66
+2017-11-08,Espresso Machine,199.81
+2016-11-10,Robot Vacuum,350.31
+2023-06-23,Art Supplies,19.62
+2018-07-25,Noise-Cancelling Earbuds,179.85
+2015-11-09,Table Lamp,30.2
+2015-03-01,Bicycle Helmet,50.46
+2021-02-26,Art Supplies,20.09
+2020-05-25,Cookware Set,99.62
+2022-05-08,Movie Tickets,12.28
+2020-09-05,Smartphone,799.6
+2019-09-14,Microwave Oven,150.04
+2017-03-14,Soccer Ball,25.46
+2023-08-05,Music Instrument,500.09
+2016-04-14,Fitness Tracker,99.9
+2018-08-24,Home Security Camera,100.14
+2015-05-14,Kitchen Blender,60.36
+2023-10-26,Digital Piano,600.45
+2020-04-14,Bicycle Helmet,50.34
+2022-02-28,Noise-Cancelling Earbuds,179.67
+2022-10-06,Table Lamp,30.36
+2018-07-10,4K Blu-ray Player,149.87
+2023-07-13,Electric Shaver,100.18
+2023-03-05,Notebook,2.22
+2017-11-24,Drone with Camera,400.25
+2016-03-19,Bluetooth Speaker,50.48
+2021-11-11,Office Supplies,19.65
+2020-02-21,Bicycle Helmet,50.19
+2020-02-26,Wireless Mouse,25.26
+2023-10-07,Movie Tickets,11.64
+2022-06-16,Office Supplies,19.91
+2019-09-27,Hiking Boots,99.54
+2020-06-17,Gaming Chair,199.88
+2023-06-20,Espresso Machine,200.29
+2018-05-18,Smartphone,799.67
+2020-06-21,Electric Scooter,399.64
+2017-05-23,Kitchen Blender,59.52
+2017-10-20,Wireless Headphones,80.3
+2016-05-12,Notebook,2.25
+2023-12-16,Hair Dryer,39.99
+2020-05-21,Acoustic Guitar,300.2
+2021-12-23,Robot Vacuum,350.26
+2021-02-11,Drone with Camera,399.57
+2023-10-19,Smart Light Bulbs (Pack of 4),49.62
+2021-02-06,DSLR Camera,699.79
+2016-05-05,Hair Dryer,40
+2020-07-17,Gaming Chair,200.3
+2015-08-09,LED TV,499.7
+2019-07-28,Laptop Stand,30.46
+2020-05-01,Soccer Ball,24.62
+2017-11-23,Kitchen Blender,60.45
+2023-01-27,Vacuum Cleaner,150.05
+2016-03-07,Hiking Boots,99.58
+2015-03-03,Groceries,99.81
+2022-08-21,Home Security Camera,100.48
+2019-02-14,Electric Toothbrush,50.35
+2017-04-07,Table Lamp,29.91
+2022-06-28,Wireless Headphones,80.3
+2020-04-03,Sketchpad,4.89
+2020-04-15,LED TV,499.94
+2020-06-16,Smart Thermostat,200.23
+2023-10-28,Winter Jacket,119.67
+2018-08-23,Electric Guitar,499.77
+2019-07-11,Electric Guitar,499.94
+2020-02-20,Air Purifier,149.53
+2016-08-05,Groceries,99.86
+2016-06-28,Acoustic Guitar,299.64
+2017-12-27,Gaming Console,499.52
+2023-01-27,Vacuum Cleaner,149.57
+2018-07-27,Fitness Equipment,500.29
+2018-06-04,Soccer Ball,24.83
+2019-02-05,Smartphone,800.03
+2020-04-24,Noise-Cancelling Headphones,150.08
+2021-11-16,Movie Tickets,11.51
+2017-08-26,Electric Toothbrush,49.86
+2021-01-15,Fitness Equipment,499.51
+2015-12-19,Gaming Console,499.87
+2019-10-19,Cookware Set,99.54
+2018-02-06,Kitchen Blender,59.82
+2023-11-21,Portable Hard Drive,80.1
+2020-10-04,Sketchpad,4.84
+2020-04-06,Smartphone,799.95
+2018-01-15,Laptop Stand,30.36
+2022-05-18,Wireless Mouse,25
+2018-01-25,Stand Mixer,300.01
+2017-11-20,E-Reader,120.38
+2023-12-13,Smart Light Bulbs (Pack of 4),50.24
+2021-06-20,Laptop Stand,30.02
+2018-02-03,Smart Thermostat,200.15
+2021-12-05,Fitness Equipment,500.07
+2017-09-12,Drone with Camera,400.17
+2020-07-09,Camping Tent,150.47
+2020-02-20,Noise-Cancelling Headphones,150.29
+2019-09-16,Gaming Chair,200.17
+2020-01-15,Kitchen Blender,59.73
+2019-10-28,Portable Hard Drive,80.04
+2015-01-07,Wireless Headphones,79.98
+2020-12-09,Desk Chair,100.18
+2016-06-15,Electric Toothbrush,50.22
+2017-01-20,Groceries,100.16
+2023-12-07,Camping Tent,150.42
+2022-09-01,Desk Chair,99.59
+2023-04-26,Frying Pan,25.22
+2016-05-11,Stand Mixer,299.78
+2023-03-24,Wireless Headphones,79.8
+2022-10-21,Bicycle Helmet,49.92
+2021-08-08,Office Supplies,19.75
+2020-01-16,Bluetooth Speaker,50.45
+2019-12-18,Noise-Cancelling Earbuds,180.37
+2023-10-04,Electric Shaver,100.47
+2021-06-05,Gaming Console,499.61
+2016-07-25,Bookshelf,80.47
+2021-10-21,Air Purifier,149.67
+2018-07-10,Dish Soap,2.84
+2019-09-23,Wireless Mouse,24.76
+2021-10-05,Vacuum Cleaner,149.58
+2021-07-12,Espresso Machine,200.15
+2016-05-28,Laptop Stand,30.25
+2015-05-13,Noise-Cancelling Headphones,149.63
+2022-12-11,Groceries,99.75
+2019-05-18,4K Blu-ray Player,150.38
+2019-06-20,Hiking Boots,100.26
+2018-04-15,Table Lamp,30.23
+2019-12-27,Fitness Equipment,499.91
+2021-06-04,Electric Shaver,100.16
+2023-09-04,Home Security Camera,100.48
+2015-07-25,Smart Light Bulbs (Pack of 4),50.19
+2020-03-04,Art Supplies,20.48
+2017-01-22,Desk Chair,100.49
+2020-02-21,Art Supplies,20.2
+2017-11-04,Laptop Stand,29.99
+2017-04-12,Fitness Equipment,500.27
+2017-02-18,Digital Piano,600.02
+2019-11-09,Espresso Machine,200.23
+2023-05-18,Electric Guitar,500.38
+2023-03-13,Art Supplies,19.73
+2017-02-20,Smart Thermostat,200.15
+2018-02-28,Music Instrument,499.79
+2022-09-16,Wireless Headphones,80.02
+2015-05-16,Art Supplies,19.75
+2017-06-25,Fitness Equipment,500.32
+2022-05-03,Noise-Cancelling Headphones,149.67
+2021-10-28,Noise-Cancelling Headphones,150.39
+2021-02-12,Laptop Stand,30.05
+2017-02-13,Robot Vacuum,350.11
+2017-05-19,Laptop Stand,30.05
+2018-03-02,Portable Projector,199.87
+2023-12-18,Air Purifier,150.11
+2017-10-28,E-Reader,120.45
+2020-12-16,Espresso Machine,199.92
+2022-09-09,Espresso Machine,199.75
+2022-01-28,Printer,100.21
+2019-05-04,Dish Soap,3.01
+2022-06-08,Winter Jacket,119.89
+2022-09-18,Robot Vacuum,349.78
+2015-06-19,Digital Piano,599.68
+2023-12-26,Gaming Console,500.06
+2017-07-13,Dish Soap,2.77
+2022-10-20,Bookshelf,80.47
+2023-07-19,Electric Guitar,500.32
+2016-08-22,Hiking Boots,100.42
+2022-08-25,Office Supplies,20.49
+2021-01-02,Frying Pan,25.03
+2017-05-26,E-Reader,119.98
+2017-06-11,Music Instrument,500.06
+2018-11-24,Electric Kettle,30.37
+2022-12-26,Gaming Console,500.33
+2017-06-12,Fitness Equipment,499.58
+2022-03-09,Stand Mixer,300.25
+2021-11-05,Vacuum Cleaner,149.63
+2016-12-15,Art Supplies,19.97
+2018-06-09,Pencil Set,5.13
+2017-10-06,Bookshelf,79.85
+2022-01-23,Table Lamp,30
+2017-05-22,Sketchpad,5.25
+2022-09-03,Music Instrument,500.49
+2021-09-04,Home Security Camera,99.51
+2020-05-09,Home Security Camera,99.85
+2017-11-22,DSLR Camera,700.09
+2017-08-21,Stand Mixer,299.6
+2017-06-20,Sketchpad,5.23
+2015-01-21,Fitness Tracker,99.8
+2017-12-09,Groceries,99.64
+2022-09-28,Music Instrument,499.82
+2018-03-07,Yoga Mat,20.02
+2023-09-03,Home Theater System,800.06
+2018-09-11,Portable Hard Drive,79.88
+2023-04-24,Electric Scooter,399.72
+2023-02-03,Wireless Mouse,24.74
+2016-09-07,Pencil Set,4.69
+2023-01-13,Stand Mixer,300.09
+2021-04-25,Electric Shaver,100.41
+2020-01-01,Gaming Chair,199.73
+2019-02-16,Acoustic Guitar,299.86
+2018-01-18,Vacuum Cleaner,150.02
+2015-04-02,Acoustic Guitar,300.07
+2016-12-22,Smartphone,799.96
+2021-02-22,Stand Mixer,299.72
+2022-09-03,E-Reader,120.15
+2020-03-20,Printer,100.31

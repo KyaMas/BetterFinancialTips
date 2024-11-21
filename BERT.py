@@ -2,7 +2,7 @@ from transformers import pipeline
 import pandas as pd
 
 # Load the dataset
-file_path = "generated_purchase_data_expanded_500_rows.csv"
+file_path = "uploads/raw_data.csv"
 data = pd.read_csv(file_path)
 
 # Define predefined categories
@@ -24,7 +24,7 @@ def classify_product(product_name):
 data["Category"] = data["Product Name"].apply(classify_product)
 
 # Save the categorized data
-output_file_path = "new_csv/updated_purchase_data.csv"
+output_file_path = "data/updated_purchase_data.csv"
 data.to_csv(output_file_path, index=False)
 
 # Print the first few rows of the updated dataset

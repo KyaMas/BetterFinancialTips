@@ -5,21 +5,20 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 # Load the dataset
-file_path = "new_csv/updated_purchase_data.csv"
+file_path = "data/updated_purchase_data.csv"
 data = pd.read_csv(file_path)
 
-# Step 1: Data Preparation
+# Data Preparation
 # Extract features from Purchase Date
 data["Purchase Date"] = pd.to_datetime(data["Purchase Date"])
 data["Year"] = data["Purchase Date"].dt.year
 data["Month"] = data["Purchase Date"].dt.month
 data["Day"] = data["Purchase Date"].dt.day
 
-# Encode the Category column
+# Encode the Category column and transform
 label_encoder = LabelEncoder()
 data["Category_Encoded"] = label_encoder.fit_transform(data["Category"])
 
-# Step 2: Feature Engineering
 # Aggregate spending data
 category_features = data.groupby("Category").agg(
     total_spending=("Price", "sum"),
@@ -31,12 +30,12 @@ category_features = data.groupby("Category").agg(
 scaler = StandardScaler()
 normalized_features = scaler.fit_transform(category_features[["total_spending", "average_spending", "purchase_count"]])
 
-# Step 3: Clustering
+# Clustering
 # Use KMeans clustering
 kmeans = KMeans(n_clusters=3, random_state=42)
 category_features["Cluster"] = kmeans.fit_predict(normalized_features)
 
-# Step 4: Interpret Clusters
+# Interpret Clusters
 # Define cluster labels based on observed patterns
 cluster_descriptions = {
     0: "High-Value, Infrequent Purchases",
@@ -45,7 +44,7 @@ cluster_descriptions = {
 }
 category_features["Cluster_Label"] = category_features["Cluster"].map(cluster_descriptions)
 
-# Step 5: Dimensionality Reduction
+# Reduce dimension to fit PCA
 # Use PCA to visualize clusters
 pca = PCA(n_components=2)
 pca_features = pca.fit_transform(normalized_features)
@@ -54,7 +53,7 @@ pca_features = pca.fit_transform(normalized_features)
 category_features["PCA1"] = pca_features[:, 0]
 category_features["PCA2"] = pca_features[:, 1]
 
-# Step 6: Visualization
+# Visualize clusters
 # Plot clusters with descriptive labels
 plt.figure(figsize=(10, 6))
 for cluster, label in cluster_descriptions.items():
@@ -74,18 +73,18 @@ cluster_summary = category_features.groupby("Cluster_Label").agg(
     purchase_count=("purchase_count", "mean")
 ).reset_index()
 
-# Step 7: Display Spending Trends
+# Display spending trends
 print("Cluster Spending Summary with Descriptions:")
 print(cluster_summary)
 
 # Save the cluster summary to a CSV file
-cluster_summary.to_csv("cluster_spending_summary.csv", index=False)
+cluster_summary.to_csv("data/cluster_spending_summary.csv", index=False)
 print("Cluster summary has been saved to 'cluster_spending_summary.csv'.")
 
-# Step 8: Analyze Spending Trends by Category
+# Analyze Spending Trends by Category
 spending_trends = category_features.copy()
 
-# Add insights based on thresholds (you can adjust these thresholds based on the dataset)
+# Add insights based on thresholds (might use GPT api here to generate insights)
 spending_trends["Spending_Level"] = pd.cut(
     spending_trends["total_spending"],
     bins=[0, 1000, 5000, float("inf")],  # Define spending ranges
@@ -115,11 +114,11 @@ spending_trends["Budgeting_Tip"] = spending_trends.apply(generate_budgeting_tip,
 print("Spending Trends with Budgeting Tips:")
 print(spending_trends)
 
-# Save the data to a CSV file for further analysis
-spending_trends.to_csv("spending_trends_with_budgeting_tips.csv", index=False)
+# Save the data to a CSV file
+spending_trends.to_csv("data/spending_trends_with_budgeting_tips.csv", index=False)
 print("The spending trends with budgeting tips have been saved to 'spending_trends_with_budgeting_tips.csv'.")
 
-# Step 10: Visualization of Spending Trends
+# Visualize trends
 # Bar chart for total spending by category
 plt.figure(figsize=(12, 6))
 plt.bar(spending_trends["Category"], spending_trends["total_spending"], color="skyblue")
