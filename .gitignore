@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+
+# Flask instance and environment settings
+instance/
+*.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+*.cover
+.coverage
+
+# Database files
+*.sqlite3
+*.db
+
+# Static and media uploads (optional, if using file uploads)
+uploads/
+
+# Cached packages
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter Notebooks checkpoints (if applicable)
+.ipynb_checkpoints/
