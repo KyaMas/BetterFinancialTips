@@ -1,0 +1,501 @@
+Purchase Date,Product Name,Price
+2019-07-06,Dish Soap,530.7
+2015-04-28,Groceries,637.63
+2019-04-19,Notebook,967.34
+2022-11-22,Hair Dryer,446.48
+2015-07-22,Microwave Oven,518.08
+2019-02-04,Sketchpad,626.63
+2022-10-22,Tablet,627.9
+2023-02-14,LED TV,551.18
+2017-05-08,Tablet,93.08
+2015-06-27,Electric Kettle,482.01
+2022-12-19,Art Supplies,276.19
+2016-04-16,Winter Jacket,470.68
+2016-05-14,Printer,108.03
+2017-06-12,Printer,554.62
+2018-03-04,Kitchen Blender,600.73
+2016-06-01,Soccer Ball,107.67
+2021-08-16,Wireless Headphones,664.11
+2022-07-22,Movie Tickets,447.85
+2017-07-27,Hiking Boots,943.79
+2015-03-01,Bluetooth Speaker,571.51
+2015-01-13,Frying Pan,770.8
+2021-10-11,Sketchpad,857.61
+2022-04-05,Vacuum Cleaner,139.5
+2019-08-05,LED TV,405.82
+2015-01-22,Movie Tickets,298.8
+2017-07-15,Soccer Ball,334.79
+2020-12-26,Sketchpad,457.23
+2015-11-20,Pencil Set,164.77
+2017-04-18,Music Instrument,77.95
+2022-07-18,Electric Toothbrush,330.29
+2023-08-26,E-Book Reader,321.8
+2015-12-18,Desk Chair,493.79
+2018-07-22,Sunglasses,917.5
+2017-08-16,Toothpaste,999.33
+2016-05-11,Backpack,732.87
+2018-09-15,Toothpaste,307.84
+2023-07-27,Gaming Console,970.66
+2020-10-08,Tablet,728.32
+2020-09-08,Wireless Headphones,626.33
+2019-02-28,Notebook,430.75
+2021-01-09,Dishwasher Pods,299.12
+2016-05-21,Streaming Subscription,495.17
+2018-05-11,Air Purifier,311.06
+2023-09-23,Art Supplies,808.54
+2017-03-28,Standing Desk,842.37
+2020-06-20,Dish Soap,813.55
+2023-12-21,Groceries,33.18
+2019-07-09,Office Chair,376.48
+2015-02-18,Standing Desk,926.42
+2022-05-17,Coffee Maker,378.2
+2022-07-26,Hand Sanitizer,982.96
+2020-07-05,Running Shoes,815.04
+2016-04-20,Shampoo,437.44
+2022-01-11,Toilet Paper,290.26
+2022-07-27,Carpet Cleaner,528.75
+2022-09-27,Laundry Detergent,522.39
+2016-12-09,Tennis Racket,333.85
+2017-11-09,E-Book Reader,704.1
+2023-03-14,Running Shoes,883.15
+2021-07-25,Wireless Headphones,274.4
+2023-09-22,Sunglasses,606.74
+2023-03-01,Sunglasses,948.25
+2017-02-26,E-Book Reader,765.7
+2016-05-02,Fan Heater,271.3
+2023-07-16,Bluetooth Speaker,392.67
+2017-07-23,Pencil Set,115.72
+2017-02-24,Hiking Boots,388.37
+2020-01-08,Winter Jacket,344.84
+2022-09-19,Toilet Paper,250.66
+2020-03-05,Art Supplies,148.18
+2015-10-15,Pressure Cooker,972.6
+2016-02-21,Kitchen Blender,707.18
+2023-09-16,E-Book Reader,760.3
+2023-10-20,Printer,262.24
+2017-09-23,Tablet,858.63
+2015-07-20,Frying Pan,79.79
+2021-04-09,Garden Tools,403.91
+2018-11-08,Hiking Boots,697.1
+2020-09-05,Fan Heater,731.51
+2021-04-15,Wireless Headphones,106.28
+2019-04-11,Winter Jacket,109.52
+2020-01-07,Art Supplies,21.15
+2015-11-09,Paint Set,272.18
+2016-06-16,Pencil Set,102.23
+2020-09-23,Soccer Ball,261.51
+2018-12-23,Water Bottle,20.29
+2015-07-26,Desk Chair,312.65
+2018-04-09,Dishwasher Pods,586.52
+2018-04-06,Coffee Maker,734.36
+2022-03-02,Sunglasses,227.12
+2023-12-18,Sketchpad,273.32
+2021-08-22,Laptop,652.73
+2017-07-27,Standing Desk,977.21
+2016-01-04,Running Shoes,866.72
+2020-07-28,Desk Chair,40.23
+2023-04-05,Laundry Detergent,843.4
+2017-12-17,Art Supplies,718.06
+2018-07-26,Air Purifier,341.73
+2021-01-25,Gaming Console,619.08
+2019-06-09,Electric Toothbrush,16.2
+2016-09-06,Sketchpad,973.63
+2020-06-01,Notebook,270.76
+2020-08-12,Soccer Ball,226.5
+2021-04-13,Laundry Detergent,748.56
+2015-10-10,Laundry Detergent,931.38
+2017-11-10,Pencil Set,125.53
+2020-08-07,Concert Tickets,76.02
+2016-12-05,Basketball,491.98
+2015-07-28,Toothpaste,970.21
+2023-04-15,Microwave Oven,723.9
+2019-12-09,Laptop,26.02
+2021-09-21,Kitchen Blender,265.26
+2016-04-07,Fan Heater,187.93
+2022-09-28,Desk Chair,252.55
+2017-07-23,Fan Heater,347.09
+2023-01-10,Hair Dryer,709.91
+2019-08-20,Water Bottle,199.18
+2016-06-15,Smart Watch,31.75
+2015-05-08,Smartphone,917.94
+2015-03-16,Soccer Ball,887.81
+2019-05-25,Wireless Headphones,656.0
+2016-08-05,Electric Toothbrush,78.34
+2016-09-18,Dishwasher Pods,47.63
+2021-05-06,Backpack,600.41
+2018-03-10,Office Chair,251.25
+2021-05-26,Standing Desk,994.1
+2020-12-28,Electric Kettle,577.11
+2016-01-28,Laundry Detergent,954.36
+2017-09-04,Movie Tickets,834.05
+2019-11-23,Electric Toothbrush,726.26
+2023-11-08,Bicycle Helmet,669.96
+2022-01-27,Standing Desk,548.76
+2015-05-05,Sketchpad,789.47
+2023-03-07,Smartphone,850.85
+2016-10-27,Microwave Oven,830.78
+2016-07-11,Board Game,355.54
+2019-09-15,Groceries,795.79
+2018-08-14,Camping Tent,769.85
+2018-04-09,Camping Tent,380.83
+2017-05-05,Water Bottle,519.16
+2016-05-23,LED TV,521.95
+2016-01-20,Electric Toothbrush,724.8
+2018-11-19,Pressure Cooker,300.48
+2022-05-25,Gaming Console,742.12
+2018-01-20,Microwave Oven,210.27
+2015-01-18,Vacuum Cleaner,112.37
+2022-09-11,Wireless Headphones,271.64
+2015-11-14,Garden Tools,27.7
+2015-06-10,Laptop,907.08
+2017-05-03,Laptop,984.52
+2018-02-19,Laundry Detergent,537.62
+2016-07-01,Hiking Boots,361.31
+2021-05-26,Laptop,860.56
+2017-08-03,Tennis Racket,79.91
+2018-12-04,Carpet Cleaner,561.8
+2020-04-05,Shampoo,665.62
+2015-05-04,Carpet Cleaner,418.6
+2016-04-24,Tennis Racket,253.02
+2019-10-10,Basketball,795.55
+2019-07-20,Garden Tools,170.58
+2015-01-08,Laundry Detergent,255.96
+2017-02-27,Music Instrument,805.97
+2018-10-24,Standing Desk,689.96
+2022-02-24,Tablet,190.52
+2018-07-07,Printer,910.19
+2022-04-24,Yoga Mat,740.62
+2019-07-27,Bluetooth Speaker,846.94
+2015-02-13,Concert Tickets,585.29
+2021-06-13,Kitchen Blender,331.77
+2021-09-06,Tablet,201.41
+2015-10-21,Kitchen Blender,275.53
+2021-11-17,Carpet Cleaner,263.05
+2020-07-05,Pressure Cooker,483.44
+2022-07-12,Sunglasses,197.42
+2019-09-05,Groceries,989.7
+2023-03-19,Electric Kettle,949.01
+2018-02-04,Groceries,448.36
+2020-04-06,Dish Soap,152.14
+2021-04-03,Shampoo,77.5
+2015-09-19,Toothpaste,131.32
+2018-10-07,Toothpaste,393.73
+2023-11-24,Hand Sanitizer,858.93
+2015-05-14,Hand Sanitizer,474.97
+2018-11-10,Pencil Set,990.24
+2015-11-26,Hair Dryer,416.26
+2023-09-17,Sunglasses,23.13
+2019-06-21,Printer,596.41
+2020-11-02,Sketchpad,838.15
+2015-08-19,Fan Heater,382.2
+2021-05-20,Art Supplies,378.67
+2018-12-13,Smartphone,541.18
+2019-06-04,Pressure Cooker,829.05
+2020-06-10,Smart Watch,146.1
+2015-02-27,Carpet Cleaner,148.25
+2016-11-08,Yoga Mat,462.99
+2016-10-13,Backpack,205.37
+2017-11-09,Air Purifier,286.73
+2020-02-18,Desk Chair,745.37
+2023-11-12,Soccer Ball,28.97
+2022-10-21,Electric Toothbrush,499.42
+2023-01-24,LED TV,743.39
+2015-10-10,Pencil Set,349.63
+2022-12-17,Dishwasher Pods,512.35
+2022-01-24,Laptop,62.09
+2021-05-24,Carpet Cleaner,300.19
+2018-05-24,Wireless Headphones,117.0
+2018-11-10,Soccer Ball,668.31
+2021-06-17,Yoga Mat,577.75
+2019-03-23,Microwave Oven,919.21
+2017-03-06,Basketball,297.68
+2015-01-08,Toilet Paper,480.15
+2022-05-26,LED TV,948.53
+2020-01-09,Soccer Ball,420.97
+2023-03-16,Pressure Cooker,262.03
+2015-05-22,Concert Tickets,474.95
+2017-06-09,Electric Toothbrush,818.29
+2020-06-03,Streaming Subscription,378.93
+2015-11-10,Sketchpad,185.96
+2019-01-01,Streaming Subscription,829.82
+2019-08-28,LED TV,472.3
+2020-01-20,Tennis Racket,569.8
+2019-10-21,Toilet Paper,124.56
+2016-10-28,Dishwasher Pods,71.69
+2017-01-06,Standing Desk,279.44
+2017-05-08,Bicycle Helmet,650.22
+2017-04-02,LED TV,362.3
+2022-03-15,Music Instrument,377.46
+2019-10-17,Hair Dryer,924.02
+2019-02-18,Groceries,860.7
+2023-06-28,Groceries,758.82
+2017-07-18,Gaming Console,686.21
+2015-08-14,Smartphone,954.96
+2020-04-02,Desk Chair,972.99
+2016-11-09,Concert Tickets,115.18
+2019-03-15,Laptop,824.96
+2017-06-27,Tennis Racket,145.25
+2022-09-24,Gaming Console,536.58
+2017-05-02,Fan Heater,905.44
+2019-12-22,Hair Dryer,698.7
+2016-11-17,Music Instrument,386.91
+2015-04-07,Hair Dryer,272.97
+2020-04-27,Tennis Racket,41.48
+2020-07-13,Concert Tickets,58.13
+2017-08-03,Board Game,571.53
+2022-04-03,Board Game,735.44
+2023-10-11,Smartphone,707.55
+2018-11-20,Smart Watch,687.8
+2020-01-15,Gaming Console,657.46
+2023-12-07,Standing Desk,553.32
+2015-02-07,Smartphone,603.48
+2018-08-25,Garden Tools,739.86
+2017-07-17,Laundry Detergent,978.62
+2017-05-25,Electric Toothbrush,267.53
+2018-03-24,Notebook,798.28
+2018-04-12,Sunglasses,124.01
+2022-04-03,Frying Pan,657.72
+2020-06-16,Art Supplies,112.65
+2015-09-04,Basketball,818.48
+2016-12-25,Yoga Mat,354.66
+2017-03-14,Hand Sanitizer,831.86
+2022-12-09,Art Supplies,573.9
+2022-06-18,Frying Pan,618.92
+2020-05-06,Coffee Maker,509.7
+2015-06-23,Fan Heater,707.82
+2019-06-20,Winter Jacket,174.91
+2018-09-19,Laptop,210.68
+2022-02-11,Dish Soap,555.92
+2020-01-13,Art Supplies,758.69
+2017-01-27,Air Purifier,18.78
+2017-07-03,Backpack,500.73
+2018-03-17,Kitchen Blender,115.35
+2018-05-17,Art Supplies,148.45
+2018-09-04,Air Purifier,861.05
+2018-01-08,Groceries,247.42
+2016-11-12,Pencil Set,501.27
+2016-07-20,Backpack,119.34
+2016-06-18,Carpet Cleaner,615.13
+2020-10-16,Office Chair,575.44
+2018-06-08,Desk Chair,154.27
+2017-03-20,Desk Chair,450.67
+2017-07-27,Vacuum Cleaner,880.77
+2016-12-09,Notebook,119.61
+2020-02-08,Hand Sanitizer,46.69
+2021-02-08,Art Supplies,671.5
+2023-04-16,LED TV,681.74
+2022-05-06,Laundry Detergent,687.43
+2016-04-11,Winter Jacket,963.03
+2017-11-25,Vacuum Cleaner,749.64
+2023-01-15,Printer,840.59
+2017-11-23,Hiking Boots,576.72
+2017-11-05,Garden Tools,485.24
+2022-10-09,Hair Dryer,802.2
+2020-01-25,Basketball,576.45
+2018-09-06,Laundry Detergent,334.58
+2021-03-07,Smart Watch,612.46
+2019-11-11,Carpet Cleaner,86.8
+2023-07-01,Tablet,826.05
+2019-08-25,Concert Tickets,298.52
+2015-10-17,Smartphone,371.94
+2020-09-15,Microwave Oven,986.6
+2019-03-12,Streaming Subscription,810.86
+2017-11-08,Basketball,575.6
+2016-11-10,Running Shoes,884.63
+2023-06-23,Board Game,992.84
+2018-07-25,Coffee Maker,194.1
+2015-11-09,Winter Jacket,836.27
+2015-03-01,Toothpaste,483.08
+2021-02-26,Laundry Detergent,180.77
+2020-05-25,Dishwasher Pods,784.73
+2022-05-08,Electric Kettle,776.18
+2020-09-05,Music Instrument,672.27
+2019-09-14,Standing Desk,682.94
+2017-03-14,Smartphone,387.1
+2023-08-05,Tablet,737.47
+2016-04-14,Air Purifier,385.86
+2018-08-24,Office Chair,898.26
+2015-05-14,Paint Set,833.08
+2023-10-26,Pressure Cooker,342.33
+2020-04-14,Running Shoes,403.86
+2022-02-28,Basketball,460.9
+2022-10-06,Dishwasher Pods,667.38
+2018-07-10,Groceries,412.45
+2023-07-13,Toilet Paper,982.02
+2023-03-05,Wireless Headphones,808.77
+2017-11-24,Water Bottle,671.99
+2016-03-19,Pencil Set,960.53
+2021-11-11,Movie Tickets,246.8
+2020-02-21,Movie Tickets,168.14
+2020-02-26,LED TV,833.07
+2023-10-07,Hair Dryer,539.19
+2022-06-16,E-Book Reader,479.0
+2019-09-27,Vacuum Cleaner,947.56
+2020-06-17,Wireless Headphones,744.86
+2023-06-20,Printer,531.05
+2018-05-18,Vacuum Cleaner,389.28
+2020-06-21,Soccer Ball,855.58
+2017-05-23,Camping Tent,420.92
+2017-10-20,Movie Tickets,594.4
+2016-05-12,Coffee Maker,790.23
+2023-12-16,Music Instrument,448.29
+2020-05-21,Desk Chair,617.83
+2021-12-23,Sketchpad,687.33
+2021-02-11,Running Shoes,311.39
+2023-10-19,Backpack,256.21
+2021-02-06,Bluetooth Speaker,884.1
+2016-05-05,Notebook,560.04
+2020-07-17,Streaming Subscription,491.9
+2015-08-09,Backpack,389.56
+2019-07-28,Smartphone,860.58
+2020-05-01,Basketball,150.11
+2017-11-23,Garden Tools,252.13
+2023-01-27,Laptop,643.65
+2016-03-07,Frying Pan,932.8
+2015-03-03,Streaming Subscription,997.34
+2022-08-21,Hiking Boots,668.76
+2019-02-14,Yoga Mat,533.83
+2017-04-07,Electric Kettle,499.93
+2022-06-28,Dish Soap,322.93
+2020-04-03,Garden Tools,120.01
+2020-04-15,Laptop,950.64
+2020-06-16,Pencil Set,424.2
+2023-10-28,Toilet Paper,40.35
+2018-08-23,Art Supplies,799.9
+2019-07-11,Office Chair,416.61
+2020-02-20,Toothpaste,705.97
+2016-08-05,Smart Watch,662.21
+2016-06-28,Tablet,645.52
+2017-12-27,Water Bottle,461.31
+2023-01-27,Notebook,109.86
+2018-07-27,Smart Watch,133.81
+2018-06-04,Tablet,394.43
+2019-02-05,Bluetooth Speaker,137.7
+2020-04-24,Dish Soap,581.41
+2021-11-16,Laundry Detergent,696.03
+2017-08-26,Electric Kettle,959.32
+2021-01-15,Backpack,52.09
+2015-12-19,Standing Desk,942.92
+2019-10-19,Bluetooth Speaker,877.71
+2018-02-06,Yoga Mat,839.75
+2023-11-21,Hair Dryer,46.33
+2020-10-04,Tennis Racket,592.18
+2020-04-06,Frying Pan,907.22
+2018-01-15,Tennis Racket,700.28
+2022-05-18,Desk Chair,65.18
+2018-01-25,Notebook,185.44
+2017-11-20,Electric Kettle,970.03
+2023-12-13,Sketchpad,646.56
+2021-06-20,Printer,364.68
+2018-02-03,Tablet,757.59
+2021-12-05,Hand Sanitizer,18.76
+2017-09-12,Backpack,235.05
+2020-07-09,Hair Dryer,542.16
+2020-02-20,E-Book Reader,476.78
+2019-09-16,Hiking Boots,382.39
+2020-01-15,Concert Tickets,777.27
+2019-10-28,Kitchen Blender,433.22
+2015-01-07,Hair Dryer,790.77
+2020-12-09,Hand Sanitizer,25.86
+2016-06-15,Shampoo,951.96
+2017-01-20,Hair Dryer,536.05
+2023-12-07,Coffee Maker,783.21
+2022-09-01,Standing Desk,878.62
+2023-04-26,Pencil Set,222.84
+2016-05-11,Hair Dryer,716.52
+2023-03-24,Tablet,334.66
+2022-10-21,Pencil Set,841.22
+2021-08-08,Carpet Cleaner,592.25
+2020-01-16,Desk Chair,247.74
+2019-12-18,Tablet,124.74
+2023-10-04,Electric Kettle,37.54
+2021-06-05,Shampoo,533.43
+2016-07-25,Streaming Subscription,688.36
+2021-10-21,Toilet Paper,756.55
+2018-07-10,Vacuum Cleaner,733.35
+2019-09-23,Hand Sanitizer,410.04
+2021-10-05,Garden Tools,913.22
+2021-07-12,Pressure Cooker,705.47
+2016-05-28,Tennis Racket,882.68
+2015-05-13,Shampoo,145.14
+2022-12-11,Desk Chair,944.5
+2019-05-18,Printer,850.93
+2019-06-20,Smart Watch,176.01
+2018-04-15,Concert Tickets,513.7
+2019-12-27,Fan Heater,794.84
+2021-06-04,Camping Tent,580.14
+2023-09-04,Laundry Detergent,66.34
+2015-07-25,Paint Set,905.31
+2020-03-04,Sunglasses,962.47
+2017-01-22,Concert Tickets,869.41
+2020-02-21,Sketchpad,955.67
+2017-11-04,Camping Tent,242.11
+2017-04-12,Air Purifier,976.97
+2017-02-18,Kitchen Blender,626.65
+2019-11-09,Sketchpad,947.57
+2023-05-18,Kitchen Blender,435.27
+2023-03-13,Dish Soap,963.63
+2017-02-20,Pressure Cooker,429.38
+2018-02-28,Hair Dryer,523.49
+2022-09-16,Camping Tent,439.05
+2015-05-16,LED TV,420.9
+2017-06-25,Printer,893.94
+2022-05-03,Soccer Ball,407.08
+2021-10-28,Concert Tickets,749.06
+2021-02-12,Art Supplies,676.25
+2017-02-13,Sunglasses,612.4
+2017-05-19,Pencil Set,809.99
+2018-03-02,Office Chair,621.85
+2023-12-18,Smart Watch,607.35
+2017-10-28,Tennis Racket,199.62
+2020-12-16,Pressure Cooker,685.13
+2022-09-09,Hand Sanitizer,350.78
+2022-01-28,Shampoo,394.96
+2019-05-04,Sketchpad,706.74
+2022-06-08,Running Shoes,940.48
+2022-09-18,Garden Tools,218.96
+2015-06-19,Concert Tickets,356.5
+2023-12-26,Toilet Paper,126.09
+2017-07-13,Fan Heater,258.37
+2022-10-20,Sunglasses,288.34
+2023-07-19,Basketball,244.37
+2016-08-22,Running Shoes,569.26
+2022-08-25,LED TV,326.83
+2021-01-02,Tablet,777.27
+2017-05-26,Frying Pan,87.46
+2017-06-11,Winter Jacket,397.49
+2018-11-24,Backpack,871.9
+2022-12-26,Coffee Maker,277.83
+2017-06-12,Notebook,926.64
+2022-03-09,Standing Desk,633.78
+2021-11-05,Laundry Detergent,289.41
+2016-12-15,Groceries,260.74
+2018-06-09,Bicycle Helmet,668.1
+2017-10-06,Frying Pan,55.47
+2022-01-23,Running Shoes,237.38
+2017-05-22,Frying Pan,414.55
+2022-09-03,Carpet Cleaner,858.2
+2021-09-04,Sketchpad,461.74
+2020-05-09,Art Supplies,750.16
+2017-11-22,Dishwasher Pods,343.71
+2017-08-21,Hair Dryer,168.89
+2017-06-20,Frying Pan,912.92
+2015-01-21,Carpet Cleaner,502.94
+2017-12-09,Shampoo,898.78
+2022-09-28,Movie Tickets,769.81
+2018-03-07,LED TV,138.24
+2023-09-03,Bluetooth Speaker,904.17
+2018-09-11,Kitchen Blender,625.1
+2023-04-24,LED TV,424.63
+2023-02-03,E-Book Reader,483.89
+2016-09-07,Soccer Ball,158.16
+2023-01-13,Shampoo,419.63
+2021-04-25,Frying Pan,776.68
+2020-01-01,Gaming Console,68.66
+2019-02-16,Hiking Boots,698.06
+2018-01-18,Groceries,316.08
+2015-04-02,Kitchen Blender,825.35
+2016-12-22,Dishwasher Pods,475.6
+2021-02-22,Printer,250.92
+2022-09-03,Desk Chair,822.62
+2020-03-20,Music Instrument,676.69
