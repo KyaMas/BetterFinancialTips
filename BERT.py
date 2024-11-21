@@ -1,5 +1,7 @@
 from transformers import pipeline
 import pandas as pd
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # Load the dataset
 file_path = "uploads/raw_data.csv"
@@ -32,3 +34,10 @@ print(data.head())
 
 # Path to the output file
 print(f"Classified data saved to: {output_file_path}")
+
+# Generate a wordcloud of the review text
+text = " ".join(review for review in data['Product Name'])
+wordcloud = WordCloud(background_color="white").generate(text)
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.savefig('./data/review_wordcloud.png')
