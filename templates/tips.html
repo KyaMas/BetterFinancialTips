@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+    <style>
+        #tips-box {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            overflow-y: auto;
+        }
+        #chatbox {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tips</h1>
+    <div id="tips-box">
+        <!-- Tips will be displayed here -->
+    </div>
+    <form action="/submit_tip" method="post">
+        <textarea id="chatbox" name="user_input" rows="4" placeholder="Enter your question here..."></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
