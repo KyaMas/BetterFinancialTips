@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 import os
+import subprocess
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
@@ -9,30 +10,30 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 def home():
     return render_template('home.html')
 
-@app.route('/upload', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def upload_file():
     if 'file' not in request.files:
-        return redirect(url_for('error'))
+        return "File not found in request", 400
     file = request.files['file']
     if file.filename == '':
-        return redirect(url_for('error'))
+        return "No file selected", 400
     if file and file.filename.endswith('.csv'):
-        file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
-        return redirect(url_for('success'))
+        file_path = file.save(os.path.join(app.config['uploads'], 'raw_data.csv'))
+        file.save(file_path)
+
+        # Run the BERT script
+        subprocess.run(["python", "BERT.py"], check=True)
+
+        # Run the ML script
+        subprocess.run(["python", "ml_pro.py"], check=True)
+
+        return "Processing complete", 200
     else:
-        return redirect(url_for('error'))
+        return "Invalid file type", 400
 
-@app.route('/success')
-def success():
-    return render_template('success.html')
+    
 
-@app.route('/error')
-def error():
-    return render_template('error.html')
 
-@app.route('/tips')
-def tips():
-    return render_template('tips.html')
 
 @app.route('/submit_tip', methods=['POST'])
 def submit_tip():
