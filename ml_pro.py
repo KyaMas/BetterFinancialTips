@@ -47,7 +47,7 @@ plt.title("MDS Visualization of Spending Patterns")
 # plt.show()
 
 # save plot to data folder
-plt.savefig("data/mds_visualization.png")
+plt.savefig("static/images/mds_visualization.png")
 
 # Add Spending Insights
 def generate_budgeting_tip(row):
