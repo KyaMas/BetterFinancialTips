@@ -49,9 +49,9 @@ def upload_file():
             return jsonify({"error": f"An error occurred while running scripts: {e}"}), 500
 
         # Encode images as base64 strings
-        with open("data/review_wordcloud.png", "rb") as image_file:
+        with open("static/images/review_wordcloud.png", "rb") as image_file:
             wordcloud_base64 = base64.b64encode(image_file.read()).decode('utf-8')
-        with open("data/mds_visualization.png", "rb") as image_file:
+        with open("static/images/mds_visualization.png", "rb") as image_file:
             mds_base64 = base64.b64encode(image_file.read()).decode('utf-8')
 
         # Return an array of both images as base64 strings

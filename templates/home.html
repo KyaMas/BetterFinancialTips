@@ -138,6 +138,7 @@
 
                               <button
                                 type="button"
+                                id="submit_button"
                                 onclick="predict()"
                                 class="mt-3 text-lg font-semibold bg-gray-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:text-white hover:bg-black"
                               >
@@ -153,30 +154,17 @@
               </form>
             </div>
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <div>
-                <h1 class="text-4xl underline underline-offset-8">
-                  Prediction Result
-                </h1>
-                <div class="p-4 m-2 border">
-                  <div id="predictionResult"></div>
-                </div>
-              </div>
               <div class="pt-6">
                 <h1 class="text-4xl underline underline-offset-8">
                   graph Result
                 </h1>
                 <div class="p-4 m-2 border">
                   <div id="graphContainer"></div>
+                  <img id="image_o1" style="display: none;" src="{{ url_for('static', filename='images/mds_visualization.png') }}" alt="My Image">
+                  <img id="image_o2" style="display: none;" src="{{ url_for('static', filename='images/review_wordcloud.png') }}" alt="My Image">
                 </div>
               </div>
-              <button
-                id="downloadBtn"
-                style="display: none"
-                onclick="downloadPredictions()"
-                class="mt-3 text-lg font-semibold bg-gray-800 w-full text-white rounded-lg px-6 py-3 mt-10 block shadow-xl hover:text-white hover:bg-black"
-              >
-                Download Predictions
-              </button>
+              
             </div>
           </div>
         </div>
@@ -226,6 +214,7 @@
 
       if (csvFileInput.files.length > 0) {
         // Upload CSV file
+              document.getElementById("submit_button").style.display = "none";
         var formData = new FormData();
         formData.append("file", csvFileInput.files[0]);
 
@@ -234,7 +223,10 @@
           body: formData,
         })
           .then((response) => {
-            console.log("Response:", response);
+            setTimeout(() => {
+              document.getElementById("image_o1").style.display = "block";
+              document.getElementById("image_o2").style.display = "block";
+            }, 1000);
             if (response.headers.get("X-Graph-Exists") === "true") {
               console.log("Graph");
               var graphData = response.headers.get("X-Graph-Data");
