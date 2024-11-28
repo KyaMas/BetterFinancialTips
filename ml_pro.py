@@ -44,7 +44,10 @@ for i, row in category_features.iterrows():
 plt.xlabel("MDS1")
 plt.ylabel("MDS2")
 plt.title("MDS Visualization of Spending Patterns")
-plt.show()
+# plt.show()
+
+# save plot to data folder
+plt.savefig("data/mds_visualization.png")
 
 # Add Spending Insights
 def generate_budgeting_tip(row):
