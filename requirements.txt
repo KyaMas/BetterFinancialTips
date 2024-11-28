@@ -1,0 +1,8 @@
+transformers
+pandas
+wordcloud
+matplotlib
+Flask
+flask-cors
+openai
+scikit-learn
