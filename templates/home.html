@@ -156,15 +156,22 @@
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
               <div class="pt-6">
                 <h1 class="text-4xl underline underline-offset-8">
-                  graph Result
+                  Graph Result
                 </h1>
                 <div class="p-4 m-2 border">
                   <div id="graphContainer"></div>
                   <img id="image_o1" style="display: none;" src="{{ url_for('static', filename='images/mds_visualization.png') }}" alt="My Image">
                   <img id="image_o2" style="display: none;" src="{{ url_for('static', filename='images/review_wordcloud.png') }}" alt="My Image">
                 </div>
+                <button
+                  onclick="window.location.href='/tips'"
+                  style="display: none;"
+                  id = "tips_button"
+                  class="mt-3 text-lg font-semibold bg-gray-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:text-white hover:bg-black"
+              >
+                  Go to Tips Page
+              </button>
               </div>
-              
             </div>
           </div>
         </div>
@@ -226,6 +233,7 @@
             setTimeout(() => {
               document.getElementById("image_o1").style.display = "block";
               document.getElementById("image_o2").style.display = "block";
+              document.getElementById("tips_button").style.display = "block";
             }, 1000);
             if (response.headers.get("X-Graph-Exists") === "true") {
               console.log("Graph");

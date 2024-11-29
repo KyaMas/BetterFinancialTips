@@ -49,6 +49,8 @@ plt.title("MDS Visualization of Spending Patterns")
 # save plot to data folder
 plt.savefig("static/images/mds_visualization.png")
 
+# these results are not used anymore as the tip generation is done in the GPT-4o model, and displayed in frontend
+# leaving this here to show what we had at the point of giving our presentation
 # Add Spending Insights
 def generate_budgeting_tip(row):
     # Thresholds

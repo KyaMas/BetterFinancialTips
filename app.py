@@ -7,7 +7,7 @@ from openai import OpenAI
 from ml_pro import category_features
 
 client = OpenAI(
-    api_key='follow instruction in the readme file to use API key'
+    api_key='PLACEHOLDER FOR API KEY - check README.md for instructions'
 )
 
 app = Flask(__name__)
@@ -63,45 +63,52 @@ def upload_file():
     else:
         return jsonify({"error": "Invalid file type"}), 400
     
-@app.route("/tips", methods=["GET", "POST"])
+@app.route('/tips')
+def tips():
+    return render_template('tips.html')
+
+@app.route("/submit_tip", methods=["POST"])
 def generate_tip():
-    if request.method == "POST":
-        # Step 1: Retrieve MDS values from ml_pro.py
-        try:
-            ml_feature = category_features()  # Call the function to get the feature
-        except Exception as e:
-            return jsonify({"error": f"Failed to retrieve processed feature: {str(e)}"}), 500
+    try:
+        # Load and encode the mds image in base64
+        with open("static/images/mds_visualization.png", "rb") as image_file:
+            base64_image = base64.b64encode(image_file.read()).decode("utf-8")
 
-        # Step 2: Get user input from the form
-        user_prompt = request.form["user_input"]
+    except Exception as e:
+        print(f"Error in encoding image: {e}")
+        return jsonify({"error": f"Failed to load and encode image: {str(e)}"}), 500
 
-        # Step 3: Use MDS feature and user input to generate the response
-        try:
-            response = client.chat.completions.create(
-                model="gpt-4o",
-                temperature=0.6,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            f"You are a financial assistant designed to provide users with spending and budgeting tips based on MDS values on the following categories: "
-                            f"Electronics, Clothing, Household, Entertainment, Necessities, Sports {ml_feature}. "
-                            "Provide responses in a friendly, engaging tone. Ensure your reply is clear and easy to understand. "
-                            "Output should not exceed 100 words."
-                        ),
-                    },
-                    {"role": "user", "content": user_prompt},
-                ],
-            )
+    # Get user input from the request body, use default if not provided
+    user_prompt = request.json.get("user_input", "Provide me with a default financial tip.")
 
-            # Step 4: Return the generated message as a JSON response
-            return jsonify({"message": response.choices[0].message.content}), 200
+    # Use base64 image and user input to generate the response
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            temperature=0.6,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        f"You are a financial assistant designed to provide users with e-commerce spending and budgeting tips based on MDS values on the following categories: "
+                        f"Electronics, Clothing, Household, Entertainment, Necessities, Sports. "
+                        f"Provide responses in a friendly, engaging tone. Ensure your reply is clear and easy to understand. "
+                        f"Output should not exceed 100 words."
+                        f"Prioritize based on the provided base64-encoded image to generate personalized financial tips. "
+                        f"The image is encoded in base64 format. Use it as visual data to derive insights. The image is an MDS visualization of spending patterns, in the following cetegories: total_spending, average_spending, purchase_count."
+                        f"The base64 image string is:\n\n{base64_image}."
+                    ),
+                },
+                {"role": "user", "content": user_prompt},
+            ],
+        )
 
-        except Exception as e:
-            return jsonify({"error": f"Failed to generate response: {str(e)}"}), 500
+        # Return the response
+        return jsonify({"message": response.choices[0].message.content}), 200
 
-    # If method is GET, return an error as it's not intended
-    return jsonify({"error": "Invalid request method. Please use POST."}), 405
+    except Exception as e:
+        print(f"Error in generating response: {e}")
+        return jsonify({"error": f"Failed to generate response: {str(e)}"}), 500
 
 
 
