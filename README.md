@@ -18,10 +18,10 @@ generating budgeting advice and financial spending tips using NLP and ML - ECMM6
 
 ## Incase of any issues, here are some images of the application
 1. Home Page
-![Home Page](demo_images/Homepage_NLP.png)
+![Home Page](demo_Images/Homepage_NLP.png)
 2. Initial Graph predictions
-![Graph Predictions](demo_images/GraphResults_NLP.png)
+![Graph Predictions](demo_Images/GraphResults_NLP.png)
 3. Generated Tip Sample 1
-![Generate Tips Sample 1](demo_images/TipSample1_NLP.png)
+![Generate Tips Sample 1](demo_Images/TipSample1_NLP.png)
 4. Generated Tip Sample 2
-![Generate Tips Sample 2](demo_images/TipsSample2_NLP.png)
+![Generate Tips Sample 2](demo_Images/TipsSample2_NLP.png)
