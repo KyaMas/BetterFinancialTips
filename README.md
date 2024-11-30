@@ -2,7 +2,7 @@
 generating budgeting advice and financial spending tips using NLP and ML - ECMM6000 Term Project
 
 ## How to run the code
-1. Clone the repository
+1. Clone the repository or extract the submitted zip file to a desired location
 2. Install the required packages using the following command
 - pip install -r requirements.txt
 3. Replace the placeholder API key in line 10 of `app.py` file with the key provided in the report
